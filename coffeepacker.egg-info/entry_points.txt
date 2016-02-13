@@ -1,0 +1,3 @@
+[console_scripts]
+coffeepacker = CoffeePacker.coffeepacker.entry_points:pack
+

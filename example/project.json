@@ -1,0 +1,7 @@
+{
+    "libraries":[
+        "lib/jar/*",
+        "lib/native"
+    ],
+    "class": "HelloWorld"
+}

@@ -1,0 +1,9 @@
+setup.py
+coffeepacker/CoffeePacker.py
+coffeepacker/__init__.py
+coffeepacker/endpoints.py
+coffeepacker.egg-info/PKG-INFO
+coffeepacker.egg-info/SOURCES.txt
+coffeepacker.egg-info/dependency_links.txt
+coffeepacker.egg-info/entry_points.txt
+coffeepacker.egg-info/top_level.txt
