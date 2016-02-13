@@ -4,7 +4,7 @@ import setuptools
 
 setup(
     name='CoffeePacker',
-    version='1.2',
+    version='1.6',
     install_requires=[
         ''
     ],

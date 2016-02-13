@@ -3,5 +3,8 @@
         "lib/jar/*",
         "lib/native"
     ],
-    "class": "HelloWorld"
+    "class": "HelloWorld",
+    "D":[
+        {"java.library.path": "../lib/native/linux"}
+    ]
 }
