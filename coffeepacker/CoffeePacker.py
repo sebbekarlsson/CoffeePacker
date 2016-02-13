@@ -48,10 +48,13 @@ class CoffeePacker(object):
         
         java_files[len(java_files) -1] = java_files[len(java_files) -1].replace(':', '')
         source_files = ''.join(java_files)
+        
+        libraries_path = ''
 
-        libraries = [''.join('{}/{}:'.format(path, lib)) for lib in project['libraries']]
-        libraries[len(libraries) -1] = libraries[len(libraries) -1].replace(':', '')
-        libraries_path = ''.join(libraries)
+        if 'libraries' in project:
+            libraries = [''.join('{}/{}:'.format(path, lib)) for lib in project['libraries']]
+            libraries[len(libraries) -1] = libraries[len(libraries) -1].replace(':', '')
+            libraries_path = ''.join(libraries)
         
         darg_line = ''
 
