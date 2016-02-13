@@ -105,4 +105,9 @@ class CoffeePacker(object):
 
                 bash_file.close()
 
+            subprocess.Popen(
+                    'chmod +x execute.sh',
+                    shell=True
+                    )
+
         return '*===Done!===*'

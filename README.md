@@ -43,4 +43,20 @@
 > You can also compile your program and at the same time run it!
 > Execute the following instead:
 
-        cofffeepacker --path . --execute true
+        coffeepacker --path . --execute true
+
+> #### Exporting
+> You can also export the execution to an execution file, so that you won't
+> need to run coffeepacker again.
+> Use the "--export true" attribution like this:
+
+        coffeepacker --path . --executre true --export true
+
+> This will execute your java and and the same time generate an executable
+> "execute.sh" file that you can run later. The cool thing is, "execute.sh"
+> does not rely on coffeepacker in any way, so you can send everything to a
+> friend and they won't even need coffeepacker!
+
+        bash execute.sh
+
+> Vola!
