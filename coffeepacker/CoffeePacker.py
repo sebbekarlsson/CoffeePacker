@@ -100,7 +100,7 @@ class CoffeePacker(object):
         if export:
             with open('execute.sh', 'w+') as bash_file:
                 bash_file.write(
-                        '{}{}'.format(cmd_compile, cmd_exec)
+                        '{}\n{}'.format(cmd_compile, cmd_exec)
                         )
 
                 bash_file.close()
